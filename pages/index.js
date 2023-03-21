@@ -1,19 +1,15 @@
+import Nav from "../components/nav";
 import Head from "next/head";
 
 function Home() {
-  let title = "Tech Design Exp 2023";
-
   return (
-    <>
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Tech Dsgn Exp</title>
       </Head>
-      <main>
-        <h1>{title}</h1>
-      </main>
-    </>
+      <Nav />
+      <h1 className="text-9xl">Tech Design Experiment</h1>
+    </div>
   );
 }
 
